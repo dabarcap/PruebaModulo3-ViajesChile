@@ -1,0 +1,89 @@
+// RESET
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #212529;
+    font-weight: 400;
+}
+.title{
+    padding-top: 25px;
+}
+hr{
+    border: 2px solid #ffffff;
+}
+
+// HEADER
+// NAV
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-nav a{
+    color: #ffffff;
+    cursor: pointer;
+}
+#start{
+    justify-content: start;
+}
+#menu{
+    justify-content: end;
+}
+
+// CAROUSEL
+.carousel-item img{
+    height: 500px;
+}
+
+// MAIN
+// QUIENES SOMOS SECTION
+#quienes-img{
+    width: 100%;
+}
+#description{
+    display: block;
+    align-content: center;
+}
+
+// DESTACADOS SECTION
+.card-img{
+    height: 100%;
+    width: 100%;
+}
+#antecedents{
+    padding: 5px 15px;
+}
+.icon{
+    display: flex;
+    gap: 5px;
+}
+
+//TESTIMONIOS SECTION
+.testimonios_img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+// FOOTER
+// FORMULARIO
+
+
+// DATOS CONTACTO
+
+
+// MEDIAS QUERY
+@media (max-width: 768px) {
+    .carousel-item img{
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    #quienes-img {
+      display: none;
+    }
+}
